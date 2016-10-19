@@ -26,7 +26,7 @@ public class Person {
         this.lastName = new SimpleStringProperty(lastName);
 
         //Какие-то фиктивные начальные данные для удобства тестирования
-        this.street = new SimpleStringProperty("какая-то улица");;
+        this.street = new SimpleStringProperty("какая-то улица");
         this.postalCode = new SimpleIntegerProperty(1234);
         this.city = new SimpleStringProperty("какой-то город");
         this.birthday = new SimpleObjectProperty<>(LocalDate.of(1999, 2, 21));
